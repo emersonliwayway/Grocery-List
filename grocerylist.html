@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      body {
+        background-color: #0162a7;
+      }
+    </style>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
-    <header>
-      <h1>Grocery List</h1>
+    <header class="page">
+      <h1
+        style="
+          color: #3e9fb2;
+          text-decoration-line: underline;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-style: italic;
+          text-align: center;
+        "
+      >
+        Weekly Grocery List
+      </h1>
+      <br />
     </header>
+    <div class="upstairs">
+      <header>
+        <h2>Upstairs</h2>
+      </header>
+      <section id="fridge" class="box">
+        <h3>Fridge</h3>
+        <ol>
+          <li>Milk</li>
+          <li>Eggs</li>
+          <li>Orange juice</li>
+          <li>Apples</li>
+        </ol>
+      </section>
+      <section id="pantry" class="box">
+        <h3>Pantry</h3>
+        <ul>
+          <li>White cheddar popcorn</li>
+          <li>Peanut butter pretzels</li>
+          <li>Dog treats for Yoshi</li>
+          <li>Protein bars</li>
+        </ul>
+      </section>
+      <section class="image">
+        <img
+          src="assets/aldi.jpg"
+          alt="Image of the Aldi logo outside of the building"
+          id="aldi"
+        />
+      </section>
+    </div>
+    <br />
+
+    <div class="downstairs">
+      <header>
+        <h2>Downstairs</h2>
+      </header>
+      <section id="freezer" class="box">
+        <h3>Freezer</h3>
+        <ol>
+          <li>Ground beef</li>
+          <li>Guernsey's Mint Chocolate Chip</li>
+          <li>Frozen dumplings</li>
+        </ol>
+      </section>
+      <section id="storage" class="box">
+        <h3>Storage Room</h3>
+        <ul>
+          <li>Paper towels</li>
+          <li>Short-grain rice</li>
+          <li>Mini Dr. Pepper</li>
+          <li>Flour</li>
+        </ul>
+      </section>
+      <section class="image">
+        <img
+          src="assets/costco.jpg"
+          alt="Image of the Costco logo on a wall"
+          id="costco"
+        />
+      </section>
+    </div>
+    <br />
   </body>
 </html>
